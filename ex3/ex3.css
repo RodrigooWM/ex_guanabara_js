@@ -1,0 +1,27 @@
+body {
+    font: normal 20pt arial;
+    text-align: center;
+    background: linear-gradient(to right,blue, yellow);
+}
+
+header {
+    margin: 40px;
+}
+
+input {
+    font-size: 15px;
+    margin: 10px;
+}
+
+section {
+    margin: auto;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    background-color: blue;
+    box-shadow: 10px 10px 15px black;
+}
+
+footer {
+    margin: 40px;
+}

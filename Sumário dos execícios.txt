@@ -1,0 +1,11 @@
+Ex1 -  Fazer um site com imagem e cores que alteram automaticamente de acordo com o horário detectado pelo sistema.
+Começou errado pq a imagem não está alterando após a execução da função, apesar de o endereço da imagem estar correto.
+
+Ex2 - Verificador de idade: O verificador vai pegar o ano de nascimento, o sexo e alterar a imagem que aparece. Além disso, a cor de fundo também será alterada. (concluído - porém é preciso arrumar alguns bugs como: a mensagem de erro, que não aparece e a legenda que passa da foto.)
+
+Ex3 - Fazer um programa que faça a contagem com passos, considerando as informações inseridas pelo usuário.
+
+Ex4 - Fazer uma tabuada
+
+Exercício 5: Fazer uma lista com um botão para adicionar informações no campo que aparece, uma a uma.
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex5.css">
+    <title>Ex5</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de dados</h1>
+    </header>
+    <section>
+        <div>
+            <label for="add">Insira um número à lista (de 1 a 100):</label>
+            <input id="add" style="font:normal 20pt arial; width: auto; height: auto;" type='number'>
+            <button onclick="adicionar()" ><h2>Adicionar</h2></button> <br>            
+            <select id="lista" size="10"></select> <br>
+            <button onclick="finalizar()"><h2>Finalizar</h2></button>          
+        </div>
+        <div id="res">
+        </div>
+    </section>
+    <script src="ex5.js"></script>
+    <footer>@CursoEmVideo</footer>
+</body>
+</html>

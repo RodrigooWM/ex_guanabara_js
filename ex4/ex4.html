@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex4.css">
+    <title>TABUADA</title>
+</head>
+<body>
+    <h1>Tabuada na tela:</h1>
+    <section>
+        <div id="primeiro">
+            <label for="t1">Digite um número para saber a tabuada:</label>
+            <input type="number" id="t1" class="t1">
+        </div>
+        <button onclick="tabuada()">Calcular</button><br>
+        <select id="res" size = '10'>
+            <option>Digite um número acima para saber a tabuada</option>
+            <!--Dentro do select é possível criar vários <option>. Entretanto, esses serão criados dinamicamente através do JS.-->
+
+        </select>
+        
+    </section>
+    <script src="ex4.js">
+
+    </script>
+</body>
+</html>

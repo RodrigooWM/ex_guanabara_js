@@ -1,0 +1,36 @@
+body {
+   font: normal 20pt arial;
+   background: linear-gradient(90deg in oklab, rgb(7, 7, 200), rgb(81, 82, 82));
+   
+}
+input{
+    font-size: 15pt;
+}
+header {
+    text-align: center;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.349);
+}
+
+section {
+    border-radius: 30px;
+    background-color: rgba(74, 190, 243, 0.712);
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.349);
+
+}
+
+div {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+
+}
+
+img {
+    margin: 15px;
+}

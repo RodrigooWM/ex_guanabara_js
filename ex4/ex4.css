@@ -1,0 +1,30 @@
+body{
+    font: normal 20pt arial;
+    background-image: linear-gradient(to right,blue, grey);
+    text-align: center;
+
+}
+section{
+    margin: auto;  
+    background-color: grey;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    width: 600px;
+    height: auto;
+    
+    
+}
+#res{
+    margin:10px;
+}
+#res{
+    font-size: 20px;
+}
+button{
+    font-size:20pt;
+    margin:15px;
+}
+input{
+    font-size: 20pt;
+    margin:10pt;
+}

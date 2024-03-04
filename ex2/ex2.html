@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex2.css">
+    <title>Verificador de idade (ex2)</title>
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <p>Dados do cidadão:</p>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0" max="2024">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <!--O nome do input radio é o mesmo pois se for diferente ele vai permitir marcar as duas bolihas ao mesmo tempo, e não queremos isso.-->
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <button onclick="verificador()">VERIFICAR</button>
+        </div>
+        <div id="res">
+
+            <p>Preencha os dados acima para ver o resultado</p>
+        </div>
+    </section>
+    <footer>&copy; Curso em video</footer>
+    <script src="ex2.js"></script>
+</body>
+
+</html>
